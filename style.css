@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #19A1AD;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.top-img{
+    position: absolute;
+    right: 50%;
+    bottom:50%;
+    transform: rotate(45deg);
+    opacity: 0.4;
+}
+
+.bottom-img{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    /* transform: rotate(45deg); */
+    opacity: 0.4;
+}
+
+.main-div{
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 400px;
+    margin: 10% auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.dp img{
+    width: 350px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.profile-img{
+    border-radius: 50%;
+    border: 6px #FFFFFF Solid;
+    position: absolute;
+    left: 120px;
+    top:90px;
+}
+
+.below-div{
+    position: relative;
+}
+
+.name-head{
+    margin: 70px auto;
+    position: absolute;
+    left: 28%;
+    color: 	#282828;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.london{
+    color:#A9A9A9;
+    margin: 105px auto;
+    position: absolute;
+    left: 40%;
+}
+
+hr{
+    margin-top: 160px;
+    color: #A9A9A9;
+    opacity: 0.4;
+}
+
+table{
+    padding: 20px;
+    width: 100%;
+}
+
+th{
+    height: 20px;
+    color: #282828;
+}
+
+td{
+    font-size: 12px;
+    color: #A9A9A9;
+    padding-left: 30px;
+}
+
